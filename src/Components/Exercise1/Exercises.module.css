@@ -1,7 +1,9 @@
 .mainContainer {
   display: flex;
   flex-direction: column;
-  width: 32%;
+  margin-top: 25px;
+  width: 25%;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -15,7 +17,7 @@
   margin-bottom: 55px;
   color: rgb(7, 7, 7);
   min-height: 200px;
-  max-height: 225px;
+  max-height: 255px;
   height: 200px;
   border-radius: 10px;
   padding: 6px;
@@ -64,4 +66,27 @@
   margin-bottom: 20px;
   width: 275px;
   border: 1.5px solid rgba(217, 220, 214, 0.5);
+}
+
+@media screen and (min-width: 481px) {
+  .mainContainer {
+    width: 35%;
+    margin: 0 auto;
+  }
+  .mainSubContainer {
+    height: auto;
+  }
+  .hr {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mainContainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .btn {
+    height: 150px;
+  }
 }

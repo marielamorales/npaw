@@ -6,7 +6,4 @@ export const sortAndReverse = (arr) => {
   return sortedAndReversed;
 };
 
-export const filteredArray = (arr) => {
-  const filteredArray = arr.includes("2021");
-  return filteredArray;
-};
+//here we have a sorting and reversing function in order to handle the data we want to extract.

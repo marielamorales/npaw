@@ -11,13 +11,13 @@
 
 .App-header {
   background-color: rgb(217, 220, 214);
-  letter-spacing: 8px;
-  min-height: 140px;
+  letter-spacing: 12px;
+  min-height: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 32px;
+  font-size: 40px;
   color: rgb(7, 7, 7);
 }
 
@@ -43,6 +43,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@media screen and (max-width: 320px) {
+  .exerciseOutlet {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 480px) {
+  .exerciseOutlet {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
 
 @keyframes App-logo-spin {
